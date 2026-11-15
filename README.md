@@ -63,7 +63,7 @@ rationale.md はAIに渡さない。
 
 | 担当 | 定義ファイル | モデル | effort |
 | --- | --- | --- | --- |
-| Lead・窓口(主の会話) | なし | 最上位(fable)か opus | medium |
+| Lead・窓口(主の会話) | なし | opus(既定の最上位。fable は依頼者が指定したときだけ) | high |
 | 照合担当 | review-collator | haiku | 既定 |
 | 構造担当 | review-structure | opus | high |
 | 章担当 | review-chapter | opus | medium |
