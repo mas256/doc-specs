@@ -69,3 +69,35 @@ claude.ai からの引き継ぎに始まり、指示書の再設計と小論文�
 4. 1.5 の試行(A・B・C)への依頼者の判断。
 5. 漸化式の教科書:3項間漸化式の付加項ありの解法を改める件(草案の項目の承認から)。
 6. 規格の本文(writing/、review/、common.md、agents/)は書き換えていない。role-lead.md のモデルの表などは、規格を改めるときに直す。doc-specs の作業はブランチ ccr-084c6d83-fk3dnj にあり、main には入れていない。
+
+## 7 引き継ぎのための所在の一覧
+
+リポジトリ mas256/doc-specs(ブランチ ccr-084c6d83-fk3dnj。main には未反映)
+
+- proposals/flagship-redesign.md:設計の核(決定の正本)
+- proposals/flagship-redesign-details.md:経緯と候補(用語の採用形 §0 を含む)
+- proposals/research-2026-11-14.md:先行研究と公開されている指示書の類の調査
+- proposals/session-summary-2026-11.md:このまとめ
+- trials/essay-2026-11/:小論文の試行(お題と条件、AIの20本、助言ありの版11本、テーマだけで書いた当初の3本、作者を伏せた一式、記号の対応、分析)
+- trials/integral-1.5/versions.md:1.5 の試行の3つの版
+- trials/zenkashiki-three-term.md:3項間漸化式の解法の議論(確かめた例を含む)
+- trials/tools/endings.py:文末の集計スクリプト
+- README.md:モデルの既定(Lead・窓口は opus・effort high)
+
+リポジトリ mas256/Integral(ブランチ rewrite/three-part)
+
+- CLAUDE.md:作業の手引き(指示書は doc-specs を指す。Explore は haiku・effort medium)
+- records/:要件定義書、草案、引き継ぎメモ
+
+リポジトリに入れていないもの(依頼者の手元にある)
+
+- 依頼者の小論文5本(試行の分析は analysis-1.md にある)
+- claude.ai からの引き継ぎ一式(integral-handoff.zip)。中の history/ にある会話の記録と、指示書の修正案(doc-specs-fix-proposals-2026-11-11.md)は、このセッションでは読んでいない
+- 漸化式の教科書での議論のログ(conversation_log_2026-11-12.json)
+- 外部の評価(F1〜F14、P1〜P18 の JSON)
+- 第I部の書き直し前の原稿の zip(c35a095 から取り出したもの)
+
+そのほか
+
+- Fable の利用上限は 11月17日 13時(日本時間)に戻る。
+- 漸化式の教科書のリポジトリには、このセッションでは変更を加えていない。
