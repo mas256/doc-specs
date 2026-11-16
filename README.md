@@ -7,10 +7,10 @@
 ```text
 START.md                  AIが最初に読む入口(依頼の種類と、読むファイルの表)
 common.md                 全担当が最初に読む全体の core(流れ、役割、用語、判断の原則、品質の基準と直し方、制約、author-style の読み方、モデル)
-handoff.md                受け渡しに関わる担当が読む(author-style の枠、規格の間で渡す書式、記録の置き場所)
+handoff.md                受け渡しに関わる担当が読む(author-style の枠、工程の間で渡す書式、記録の置き場所)
 author-style-template.md  author-style のテンプレート(事項ごとの問いつき)
-writing/                  文書作成規格(core、工程0〜4、文体と書き方の型、rationale)
-review/                   文書レビュー規格(core、役割ファイル6つ、rationale)
+writing/                  書く手順(core、工程0〜4、author-style のテンプレート(講義型・実務型)、第3版までの rationale)
+review/                   レビューの手順(core、役割ファイル6つ、第9版までの rationale)
 agents/                   サブエージェントの定義(モデルと effort を含む)
 MANUAL.md                 利用者向けマニュアル(章立てだけ。本文は未執筆)
 ```
@@ -27,11 +27,12 @@ author-style.md は、この規格群に含まれない。書き手が持ち、�
 ```text
 records/
   brief.md        依頼内容ファイル(要件定義書)
-  mapping.md      対応づけ(author-style とレビュー規格の結び付け)
+  mapping.md      対応づけ(author-style とレビューの判定の結び付け)
   boundaries.md   境界の一覧
   items.md        項目一覧(全回の指摘。AIが書く)
   decisions.md    採否表(あなたが採否を書く)
   evidence.md     根拠表(確かめた根拠の記録)
+  current.md      窓口の記録(指示の記録、聞くこと、タスク、決まっていること、未決)
   round-1/ …      回ごとのレポートと作業ファイル
 ```
 
@@ -77,7 +78,7 @@ rationale.md はAIに渡さない。
 - 方針(2026-11-16):最終目標は、sonnet と haiku だけで回せること。sonnet の high を最大とし、性能のそこまで要らない担当は sonnet の medium、haiku の high・medium に下げる。opus は指示書を作り直す段階でだけ使う。
 - 道具は、担当の仕事に要るものだけを定義ファイルの tools に書く(書いていない道具は使えない。試行で、汎用の担当が指示にない操作を試みたため)。シェル(Bash)を持つのは、検索とスクリプトで抽出・差分を取る照合担当、再計算をする検証担当、差分を確かめる確認者だけである。
 
-- 要約テスト(レビュー規格 L3.11)は、定義ファイルを持たない。Leadが、haiku(medium)を指定して起動する。
+- 要約テスト(review/role-lead.md の L3.11)は、定義ファイルを持たない。Leadが、haiku(medium)を指定して起動する。
 - 検索の道具(WebSearch、WebFetch)を持つのは、検証担当だけである。ほかの担当は、確かめたい事柄を「検証の要求」として返し、Lead・窓口が検証担当に回す。
 - 章担当は人数が最も多く、使用量を支配する。設定を見直すときは、review/rationale.md の実験の手順で比べる。
 - 結果が足りないときは、モデルを替える前に effort を一段上げる。sonnet の high で足りない場合は、指示書の書き方を見直す(opus に上げない)。
