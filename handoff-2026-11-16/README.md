@@ -5,6 +5,7 @@
 ## 最初に読むもの
 
 1. このファイル
+   - 続きの議論の合意:flow-decisions.md(流れの見直し。11/16 夜)
 2. ../handoff-2026-11-15/README.md(11/12〜15 の全体と所在)
 3. ../trials/content-research-2026-11/evaluation.md と evaluation-2.md(依頼者の評価。今日いちばん確かな材料)
 
