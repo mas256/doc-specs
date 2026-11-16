@@ -10,7 +10,7 @@ common.md                 全担当が最初に読む全体の core(流れ、役
 handoff.md                受け渡しに関わる担当が読む(author-style の枠、工程の間で渡す書式、記録の置き場所)
 author-style-template.md  author-style のテンプレート(事項ごとの問いつき)
 writing/                  書く手順(core、工程0〜4、author-style のテンプレート(講義型・実務型)、第3版までの rationale)
-review/                   レビューの手順(core、役割ファイル6つ、第9版までの rationale)
+review/                   レビューの手順(core、役割ファイル7つ、第9版までの rationale)
 agents/                   サブエージェントの定義(モデルと effort を含む)
 MANUAL.md                 利用者向けマニュアル(章立てだけ。本文は未執筆)
 ```
@@ -20,7 +20,7 @@ author-style.md は、この規格群に含まれない。書き手が持ち、�
 ## 置き方
 
 1. このフォルダを、作業フォルダの中に置く(例:`spec/`)。
-2. `agents/` の10ファイルを、`.claude/agents/` に写す。
+2. `agents/` の12ファイルを、`.claude/agents/` に写す。
 3. author-style.md を、作業フォルダに置く(まだなければ、AIが尋ねて作る)。
 4. 記録は、AIが作業フォルダの `records/` に作る。消さずに残す。
 
@@ -78,6 +78,8 @@ rationale.md はAIに渡さない。
 | 章担当 | review-chapter | sonnet | high |
 | 検証担当 | review-checker | sonnet | high |
 | 確認者 | review-verifier | sonnet | medium |
+| UI担当(媒体の確認を指示した回だけ) | review-ui | sonnet | medium |
+| 削る案(削る手順のときだけ) | writing-cutter | sonnet | high |
 | 壁打ち(中身)の観点と切り口 | writing-angles | sonnet | high |
 | 壁打ち(中身)の題材 | writing-topics | haiku | high |
 | 壁打ち(中身)のロールモデル | writing-rolemodel | sonnet | medium |
@@ -85,7 +87,7 @@ rationale.md はAIに渡さない。
 | 改稿 | writing-reviser | sonnet | medium |
 
 - 方針(2026-11-16):最終目標は、sonnet と haiku だけで回せること。sonnet の high を最大とし、性能のそこまで要らない担当は sonnet の medium、haiku の high・medium に下げる。opus は指示書を作り直す段階でだけ使う。
-- 道具は、担当の仕事に要るものだけを定義ファイルの tools に書く(書いていない道具は使えない。試行で、汎用の担当が指示にない操作を試みたため)。シェル(Bash)を持つのは、検索とスクリプトで抽出・差分を取る照合担当、再計算をする検証担当、差分を確かめる確認者だけである。
+- 道具は、担当の仕事に要るものだけを定義ファイルの tools に書く(書いていない道具は使えない。試行で、汎用の担当が指示にない操作を試みたため)。シェル(Bash)を持つのは、検索とスクリプトで抽出・差分を取る照合担当、再計算をする検証担当、差分を確かめる確認者、表示を書き出す UI担当だけである。
 
 - 要約テスト(review/role-lead.md の L3.11)は、定義ファイルを持たない。起動のしかたは L3.11 にある。
 - 検索の道具(WebSearch、WebFetch)を持つのは、検証担当だけである。ほかの担当は、確かめたい事柄を「検証の要求」として返し、Lead・窓口が検証担当に回す。
