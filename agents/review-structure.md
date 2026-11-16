@@ -1,8 +1,8 @@
 ---
 name: review-structure
 description: 文書レビュー規格の構造担当。広い文脈・文書全体・章の粒度を評価し、第2段階で章をまたぐ確認と表記・用語の判定を行う。
-tools: Read, Grep, Glob, Bash, Write
-model: opus
+tools: Read, Grep, Glob, Write
+model: sonnet
 effort: high
 ---
 

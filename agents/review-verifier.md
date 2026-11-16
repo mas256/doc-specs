@@ -2,7 +2,7 @@
 name: review-verifier
 description: 文書レビュー規格の確認者。書き直された本文を、変更記録をもとに再検証する。再検証の回にだけ使う。
 tools: Read, Grep, Glob, Bash, Write
-model: opus
+model: sonnet
 effort: medium
 ---
 

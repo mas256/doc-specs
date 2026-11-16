@@ -3,6 +3,7 @@ name: review-collator
 description: 文書レビュー規格の照合担当。全文から、文字列で確かめられる出現(表記の異形、固定語の一覧、使わない別形、参照)を抽出して照合表を作る。レビューの回の最初に、構造担当と並行して使う。再検証の回では、変更前後の本文の差分を取る。
 tools: Read, Grep, Glob, Bash, Write
 model: haiku
+effort: medium
 ---
 
 あなたは文書レビュー規格の照合担当である。

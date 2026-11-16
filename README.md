@@ -55,7 +55,7 @@ rationale.md はAIに渡さない。
 2. 文書作成の工程1〜3で本文を書く(既にある原稿なら、ここは飛ばす)。
 3. レビューの回を行う。レポート、項目一覧、採否表の3つが返る。レポートには、その回に新しく生まれた項目と、状態が変わった項目だけが載る。
 4. 採否表(records/decisions.md)に採否を書く。先頭の「一括指定」に「段階3以上とフラグ付きは採用」のように書けば、該当する行は個別に書かなくてよい。個別に書いた行は、一括指定より優先される。レポートの「author-style への追記案」を見て、author-style.md を自分で更新する。
-5. 書き直しを頼む。本文と変更記録が返る。構成を変える修正(規模が大)があるときは、先に草案の承認を求められる。
+5. 書き直しを頼む。本文と変更記録が返る。構成を変える修正(規模が大)があるときは、先に構成案の承認を求められる。
 6. 再検証を頼む。レポートと、更新された項目一覧が返る。
 7. 未解消と新規について、4〜6を繰り返すかを決める。
 
@@ -63,17 +63,20 @@ rationale.md はAIに渡さない。
 
 | 担当 | 定義ファイル | モデル | effort |
 | --- | --- | --- | --- |
-| Lead・窓口(主の会話) | なし | opus(既定の最上位。fable は依頼者が指定したときだけ) | high |
-| 照合担当 | review-collator | haiku | 既定 |
-| 構造担当 | review-structure | opus | high |
-| 章担当 | review-chapter | opus | medium |
-| 検証担当 | review-checker | opus | medium |
-| 確認者 | review-verifier | opus | medium |
-| 執筆 | writing-writer | opus | high |
-| 改稿 | writing-reviser | opus | high |
+| 窓口・Lead(主の会話) | なし | sonnet | high |
+| 照合担当 | review-collator | haiku | medium |
+| 構造担当 | review-structure | sonnet | high |
+| 章担当 | review-chapter | sonnet | high |
+| 検証担当 | review-checker | sonnet | high |
+| 確認者 | review-verifier | sonnet | medium |
+| 執筆 | writing-writer | sonnet | high |
+| 改稿 | writing-reviser | sonnet | medium |
 
-- 要約テスト(レビュー規格 L3.11)は、定義ファイルを持たない。Leadが、最小のモデル(haiku)を指定して起動する。
+- 方針(2026-11-16):最終目標は、sonnet と haiku だけで回せること。sonnet の high を最大とし、性能のそこまで要らない担当は sonnet の medium、haiku の high・medium に下げる。opus は指示書を作り直す段階でだけ使う。
+- 道具は、担当の仕事に要るものだけを定義ファイルの tools に書く(書いていない道具は使えない。試行で、汎用の担当が指示にない操作を試みたため)。シェル(Bash)を持つのは、検索とスクリプトで抽出・差分を取る照合担当、再計算をする検証担当、差分を確かめる確認者だけである。
+
+- 要約テスト(レビュー規格 L3.11)は、定義ファイルを持たない。Leadが、haiku(medium)を指定して起動する。
 - 検索の道具(WebSearch、WebFetch)を持つのは、検証担当だけである。ほかの担当は、確かめたい事柄を「検証の要求」として返し、Lead・窓口が検証担当に回す。
 - 章担当は人数が最も多く、使用量を支配する。設定を見直すときは、review/rationale.md の実験の手順で比べる。
-- 結果が足りないときは、モデルを替える前に effort を一段上げる。
+- 結果が足りないときは、モデルを替える前に effort を一段上げる。sonnet の high で足りない場合は、指示書の書き方を見直す(opus に上げない)。
 - 環境変数 `CLAUDE_CODE_EFFORT_LEVEL` を設定していると、定義ファイルの effort より優先される。
