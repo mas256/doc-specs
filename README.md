@@ -26,14 +26,20 @@ author-style.md は、この規格群に含まれない。書き手が持ち、�
 
 ```text
 records/
+  current.md      窓口の記録(指示の記録、聞くこと、タスク、決まっていること、未決)
+  memo.md         壁打ちメモ
   brief.md        依頼内容ファイル(要件定義書)
+  content.md      壁打ち(中身)の結果と取捨
+  outline.md      構成案
+  notes-[版].md   執筆の引き渡しメモ
+  changes-[版].md 変更記録
   mapping.md      対応づけ(author-style とレビューの判定の結び付け)
   boundaries.md   境界の一覧
   items.md        項目一覧(全回の指摘。AIが書く)
   decisions.md    採否表(あなたが採否を書く)
   evidence.md     根拠表(確かめた根拠の記録)
-  current.md      窓口の記録(指示の記録、聞くこと、タスク、決まっていること、未決)
   round-1/ …      回ごとのレポートと作業ファイル
+  work/           担当に渡す作業パケットと担当の書き出し
 ```
 
 ## 始め方
@@ -81,7 +87,7 @@ rationale.md はAIに渡さない。
 - 方針(2026-11-16):最終目標は、sonnet と haiku だけで回せること。sonnet の high を最大とし、性能のそこまで要らない担当は sonnet の medium、haiku の high・medium に下げる。opus は指示書を作り直す段階でだけ使う。
 - 道具は、担当の仕事に要るものだけを定義ファイルの tools に書く(書いていない道具は使えない。試行で、汎用の担当が指示にない操作を試みたため)。シェル(Bash)を持つのは、検索とスクリプトで抽出・差分を取る照合担当、再計算をする検証担当、差分を確かめる確認者だけである。
 
-- 要約テスト(review/role-lead.md の L3.11)は、定義ファイルを持たない。Leadが、haiku(medium)を指定して起動する。
+- 要約テスト(review/role-lead.md の L3.11)は、定義ファイルを持たない。起動のしかたは L3.11 にある。
 - 検索の道具(WebSearch、WebFetch)を持つのは、検証担当だけである。ほかの担当は、確かめたい事柄を「検証の要求」として返し、Lead・窓口が検証担当に回す。
 - 章担当は人数が最も多く、使用量を支配する。設定を見直すときは、review/rationale.md の実験の手順で比べる。
 - 結果が足りないときは、モデルを替える前に effort を一段上げる。sonnet の high で足りない場合は、指示書の書き方を見直す(opus に上げない)。
