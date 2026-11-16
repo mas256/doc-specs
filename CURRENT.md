@@ -51,7 +51,7 @@
 - 済(2026-11-16):O3.9 と M5.2の7 を規格から取り下げ(役目は壁打ち(中身)の手順へ移す。手順は未作成)。writing/rationale.md の 1.4 に記録。
 - 済(2026-11-16):agents/ を sonnet 中心に改め、道具を担当の仕事に要るものだけにした(Bash は照合・検証・確認者だけ)。README.md のモデルの表、review/role-lead.md の L3.9、writing/write-core.md の W2.10 を同じ方針に改めた。
 - 済(2026-11-16):規格の本文の「草案」を、成果物の意味では「構成案」に置き換えた(工程の名前「草案」は残した)。今の工程の番号と新しい流れの対応を proposals/common-core-draft.md に書いた。
-- 次:制約の洗い出し(依頼者に提示中)。
+- 済(2026-11-16):制約の洗い出しの案を proposals/common-core-draft.md の E に書いた(依頼者に提示中)。
 
 - 済:別の会話のブランチ(claude/handoff-spec-revision-process-bs26e0)をこのブランチに統合した。proposals/common-core-draft.md の A を合意の流れに合わせた。
 - 待ち(依頼者の確認の後):common-core-draft.md の B〜D(common.md に移すものの一覧、残すもの、決めていないこと)を確定させ、規格の本文を書き直す。
