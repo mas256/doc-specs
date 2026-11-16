@@ -19,8 +19,8 @@
 
 | 種類 | 最初に読むもの | 後で読むもの |
 | --- | --- | --- |
-| A 壁打ちから作る | common.md、writing/write-core.md、writing/phase-0-discussion.md | 工程1へ移るとき:handoff.md、writing/phase-1-requirements.md、writing/style-presets.md。以後は工程ごとに、その工程のファイル |
-| B 要件定義から作る | common.md、handoff.md、writing/write-core.md、writing/phase-1-requirements.md、writing/style-presets.md | 工程2:writing/phase-2-outline.md。工程3を自分で書く場合:writing/phase-3-writing.md |
+| A 壁打ちから作る | common.md、writing/write-core.md、writing/phase-0-discussion.md(Z1〜Z4) | 工程1へ移るとき:handoff.md、writing/phase-1-requirements.md、writing/style-presets.md。以後は工程ごとに、その工程のファイル(壁打ち(中身)は phase-0-discussion.md の Z5) |
+| B 要件定義から作る | common.md、handoff.md、writing/write-core.md、writing/phase-1-requirements.md、writing/style-presets.md | 壁打ち(中身)を行う場合:writing/phase-0-discussion.md の Z5。工程2:writing/phase-2-outline.md。工程3を自分で書く場合:writing/phase-3-writing.md |
 | C レビュー | common.md、handoff.md、review/core.md、review/role-lead.md | 単独体制になった場合:担う役割の役割ファイル |
 | D 改稿 | common.md、handoff.md、writing/write-core.md、writing/phase-4-revision.md | 規模が大の採用行がある場合:writing/phase-2-outline.md。要件定義書も依頼内容ファイルもない場合:writing/phase-1-requirements.md。改稿を自分で書く場合:writing/phase-3-writing.md |
 | E 再検証 | common.md、handoff.md、review/core.md、review/role-lead.md | 単独体制になった場合:review/role-verifier.md |
