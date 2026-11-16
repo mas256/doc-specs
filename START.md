@@ -1,4 +1,4 @@
-# START(AI向けの入口)
+# START(AI向けの入口。文書作成規格 第4版)
 
 この規格群(doc-specs)を渡された会話は、最初にこのファイルを読む。依頼の種類を見分け、下の表のファイルだけを読んでから始める。表にないファイルは、表の「後で読むもの」の条件に当たったときに読む。rationale.md、README.md、MANUAL.md は人間向けであり、読まない。
 
@@ -24,6 +24,10 @@
 | C レビュー | common.md、handoff.md、review/core.md、review/role-lead.md | 単独体制になった場合:担う役割の役割ファイル |
 | D 改稿 | common.md、handoff.md、writing/write-core.md、writing/phase-4-revision.md | 規模が大の採用行がある場合:writing/phase-2-outline.md。要件定義書も依頼内容ファイルもない場合:writing/phase-1-requirements.md。改稿を自分で書く場合:writing/phase-3-writing.md |
 | E 再検証 | common.md、handoff.md、review/core.md、review/role-lead.md | 単独体制になった場合:review/role-verifier.md |
+
+- どの種類でも、最初に common.md を読む。全体の流れ(N6)、入口(N6.3)、役割(N7)、品質の基準(N9)は common.md にある。
+- 作業フォルダの records/current.md(窓口の記録。common.md N7.6)があれば、ほかの記録より先に読む。
+- 発言の先頭に、段階の印(common.md N6.5)を付ける。
 
 ## 3 始める前に確かめること
 
