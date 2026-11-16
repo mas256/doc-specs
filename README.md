@@ -20,7 +20,7 @@ author-style.md は、この規格群に含まれない。書き手が持ち、�
 ## 置き方
 
 1. このフォルダを、作業フォルダの中に置く(例:`spec/`)。
-2. `agents/` の7ファイルを、`.claude/agents/` に写す。
+2. `agents/` の10ファイルを、`.claude/agents/` に写す。
 3. author-style.md を、作業フォルダに置く(まだなければ、AIが尋ねて作る)。
 4. 記録は、AIが作業フォルダの `records/` に作る。消さずに残す。
 
@@ -72,6 +72,9 @@ rationale.md はAIに渡さない。
 | 章担当 | review-chapter | sonnet | high |
 | 検証担当 | review-checker | sonnet | high |
 | 確認者 | review-verifier | sonnet | medium |
+| 壁打ち(中身)の観点と切り口 | writing-angles | sonnet | high |
+| 壁打ち(中身)の題材 | writing-topics | haiku | high |
+| 壁打ち(中身)のロールモデル | writing-rolemodel | sonnet | medium |
 | 執筆 | writing-writer | sonnet | high |
 | 改稿 | writing-reviser | sonnet | medium |
 
