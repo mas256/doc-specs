@@ -34,9 +34,9 @@
 (窓口の記録の時点で、起動済みの担当はない)
 - [済] 企画の担当(a50e12c227c38341b):工程1(要件定義)。records/brief.md の第1版案を返した。
 - [済] 企画の担当(同上):壁打ち(中身)の段取り。観点4つ(content.md)と、5つのパケット(records/work/packet-*.md)を書き出した。
-- [待ち] 題材の担当(aeedc30e5930b0262、haiku):packet-topics-1。書き出し先 records/work/topics-result.md
-- [待ち] 検証担当1(a286df0d1dbc3f426、sonnet):packet-check-1。書き出し先 records/work/check-core.md
-- [未] 切り口の担当:packet-angles-1(題材と検証1が済んでから)
+- [済] 題材の担当(aeedc30e5930b0262):topics-result.md(32題材)
+- [済] 検証担当1(a286df0d1dbc3f426):check-core.md(確認済7、誤り1=C6、未確認1=C9。C6は企画の担当に正しい言い方を渡す)
+- [待ち] 切り口の担当(a05267b03f0f3fafe、sonnet):packet-angles-1。書き出し先 records/work/angles-result.md
 - [未] ロールモデルの担当 packet-rolemodel-1 と検証担当2 packet-check-2(切り口が済んでから、並べて)
 - [未] 企画の担当に続けて話しかける:結果の束ね、核の判定、説明の費用、取捨の承認の形、構成案のたたき台
 
