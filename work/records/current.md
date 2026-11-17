@@ -43,10 +43,11 @@
 - [済] 執筆の担当(ab67855ccd7489ac5):work/odai2-v1.md(1031字、窓口が機械で数え直して一致)と records/notes-v1.md。【要確認】なし。構成案の食い違い1件(項目3の式欄と例欄)は例欄を採った。渡したのは common.md、write-core、phase-3-writing.md、brief.md、outline.md、素材だけ(議論の経過、content.md、壁打ちの結果は渡さない。W2.9)
 
 - [待ち] レビュー第1回(対象 odai2-v1。窓口が Lead を兼ねる)。体制:標準を小さい文書に合わせた形(照合担当1、構造担当1、章担当1=全体、検証担当=章つき1、要約テスト)。依頼者の包括指示により体制案は推すとおり承認とみなす。
-  - [待ち] 照合担当(a3b053aed252220f2、haiku medium)→ round-1/collation.md
-  - [待ち] 構造担当 第1段階(abd1fa675895c1635、sonnet high)→ round-1/structure-packet.md、structure-1-ledger.md
-  - [待ち] 要約テスト(aba51fb1d5ef765f2、haiku medium)→ round-1/summary-test/answer.md
-  - [未] 章担当(全体)と検証担当(章つき):構造パケットと照合表が揃ってから並べて起動
+  - [済] 照合担当(a3b053aed252220f2)→ round-1/collation.md(異形0、固定語5、参照17すべて○、文末の調0、「逆」5・「定義」8、書式0、1031字)
+  - [済] 構造担当 第1段階(abd1fa675895c1635)→ B・D・Q・Pなし。W0は未確認(検証の要求V1)、D1は合。範囲をまたぐ事項2件(章担当の範囲:定義の「一つに決まるとき」の条件の有無/第6段落の論証が5÷0だけ)。この2件は章担当に渡さない(独立性。C1.3)
+  - [済] 要約テスト(aba51fb1d5ef765f2)→ round-1/summary-test/answer.md(構造担当の第2段階にだけ渡す)
+  - [待ち] 章担当(af17d698514a7d41c、sonnet high)→ round-1/chapter-1-ledger.md
+  - [待ち] 検証担当 章つき(a726a63b90484e352、sonnet high)→ round-1/checker-ledger.md
   - [未] 検証の要求の処理(L4.8)、構造担当 第2段階、統合、レポート・項目一覧・採否表
 
 ## 決まっていること
