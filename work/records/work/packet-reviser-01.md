@@ -1,0 +1,22 @@
+# 作業パケット:改稿の担当(工程4 改稿)
+
+- 担当の種類と段:改稿の担当(agents/writing-reviser)、工程4 改稿
+- 規格フォルダ:/home/user/doc-specs(common.md、handoff.md、writing/write-core.md、writing/phase-3-writing.md、writing/phase-4-revision.md)
+- 渡すもの:
+  - 要件定義書:/home/user/doc-specs/work/records/brief.md(第3版・承認済み)
+  - 構成案:/home/user/doc-specs/work/records/outline.md(第3版・承認済み)
+  - author-style.md:なし(定めなし)
+  - 項目一覧の該当行:/home/user/doc-specs/work/records/items.md の B1〜B4(状態はすべて「未対応」)
+  - 採否表の該当行:/home/user/doc-specs/work/records/decisions.md の B1〜B4 と P1(P1 は不採用なので直さない)
+  - 採用された指摘の根拠カード:/home/user/doc-specs/work/records/round-1/cards-for-revision.md(B1、B2)
+  - 素材:なし。レビューのレポート、担当の書き出し、議論の経過は読まない。
+- 範囲:全体(採用された行 B1〜B4 の箇所と、それに伴う接続だけ)
+- 変更前の版の場所:/home/user/doc-specs/work/kakurenbo-v1.md(書き換えない)
+- 変更後の版の名:kakurenbo-v2(/home/user/doc-specs/work/kakurenbo-v2.md。v1 を写してから写しだけを直す。E5.1)
+- 変更記録の書き出し先:/home/user/doc-specs/work/records/changes-v2.md(handoff.md N5.3 の書式)
+- 止まる条件:
+  - 採否表の「変更して採用」の行は、指示(B1 は D1 の (a)、B2 は D2 の (b))に従う(E1.3、E3.6)。
+  - 方針のとおりに直せない場合は E4 に従う。内容の選択が要る場合は自分で決めず、【要確認:番号】を置いて変更記録の要確認の部に書く。
+  - 字数:要件定義書の判断上の仮定1の数え方で601字以上1000字以内(v1 は 953字。窓口のスクリプトで数えた)。超える場合は直し方を言い換えの範囲で見直し、それでも収まらなければ【要確認】とする。構成案の「書くときの注意」が禁じていることは書かない。
+- 【要確認】の次に使う番号:5
+- 返す形:phase-4-revision.md E5(変更後の本文、変更記録と E5.3 の部)。加えて、変更後の字数(手で数えた値でよい。窓口がスクリプトで数え直す)を返信に書く。
