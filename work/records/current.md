@@ -40,7 +40,7 @@
 - [済] ロールモデルの担当(a7bb3978474ebbfdb):rolemodel-result.md
 - [済] 検証担当2(a74d46d7a368d72a3):check-2.md(40事項。確認済38、誤り2=C-4「一部だけ変えられない」は言い切りが強い・D-3の二つ目の文は0÷0に当てはまらない)。C9は未確認のまま
 - [済] 企画の担当(同上):結果の束ね、核の判定、説明の費用、content.md の記入、取捨の承認の形、構成案のたたき台(outline.md)。
-- [未] 執筆の担当(工程3):packet-writer-1 を作って起動する。渡すのは common.md、write-core、phase-3-writing.md、brief.md、outline.md、素材だけ(議論の経過、content.md、壁打ちの結果は渡さない。W2.9)
+- [待ち] 執筆の担当(ab67855ccd7489ac5、sonnet high):packet-writer-1 → work/odai2-v1.md と records/notes-v1.md。渡したのは common.md、write-core、phase-3-writing.md、brief.md、outline.md、素材だけ(議論の経過、content.md、壁打ちの結果は渡さない。W2.9)
 
 ## 決まっていること
 
