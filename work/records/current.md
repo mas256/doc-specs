@@ -18,7 +18,8 @@
 - (済)観点の担当 → work/angles-01.md/(済)題材の担当 → work/topics-01.md/(済)検証担当(題材) → work/check-topics-01.md(誤り0、未確認6)/(済)切り口の担当 → work/cuts-01.md/(済)ロールモデルの担当 → work/rolemodel-01.md
 - (済)企画の担当:壁打ち(中身)の束ね → content.md、構成案 第1版 → outline.md、要件定義書 第2版
 - (済)ロールモデルの担当:切り口4の核だけ → work/rolemodel-02.md/(済)企画の担当の判定 → 構成案 第2版、要件定義書 第3版
-- (待ち)執筆の担当 → work/kakurenbo-v1.md、records/notes-v1.md
+- (済)執筆の担当 → work/kakurenbo-v1.md、records/notes-v1.md。【要確認4】字数超過(窓口の数え直しで1302字)
+- (待ち)企画の担当:構成案 第3版(字数に収める改訂)。その後、執筆の担当を起動し直して要確認4の箇所を直させる
 
 ## 決まっていること
 - 種類B。工程1から始める。理由:問い・字数・書式が依頼文で決まっているため。
