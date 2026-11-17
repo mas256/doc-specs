@@ -42,6 +42,13 @@
 - [済] 企画の担当(同上):結果の束ね、核の判定、説明の費用、content.md の記入、取捨の承認の形、構成案のたたき台(outline.md)。
 - [済] 執筆の担当(ab67855ccd7489ac5):work/odai2-v1.md(1031字、窓口が機械で数え直して一致)と records/notes-v1.md。【要確認】なし。構成案の食い違い1件(項目3の式欄と例欄)は例欄を採った。渡したのは common.md、write-core、phase-3-writing.md、brief.md、outline.md、素材だけ(議論の経過、content.md、壁打ちの結果は渡さない。W2.9)
 
+- [待ち] レビュー第1回(対象 odai2-v1。窓口が Lead を兼ねる)。体制:標準を小さい文書に合わせた形(照合担当1、構造担当1、章担当1=全体、検証担当=章つき1、要約テスト)。依頼者の包括指示により体制案は推すとおり承認とみなす。
+  - [待ち] 照合担当(a3b053aed252220f2、haiku medium)→ round-1/collation.md
+  - [待ち] 構造担当 第1段階(abd1fa675895c1635、sonnet high)→ round-1/structure-packet.md、structure-1-ledger.md
+  - [待ち] 要約テスト(aba51fb1d5ef765f2、haiku medium)→ round-1/summary-test/answer.md
+  - [未] 章担当(全体)と検証担当(章つき):構造パケットと照合表が揃ってから並べて起動
+  - [未] 検証の要求の処理(L4.8)、構造担当 第2段階、統合、レポート・項目一覧・採否表
+
 ## 決まっていること
 
 - 種類は B。入る工程は要件定義(工程1)。(理由:依頼文に主題・読者・到達点・制約が書かれている。common.md N6.3)
