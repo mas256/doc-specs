@@ -23,8 +23,8 @@
 - 企画の担当(続けて):content.md・outline.md・brief.md の主張の核の書き戻し案・執筆パケットの中身 — 済
 - 執筆の担当:zero-division-v1 と notes-v1 — 済(1086字、要確認なし)
 - レビューの回1(窓口が Lead を兼ねる)— 済(round-1/report.md、items.md、decisions.md。B1 1件(B2 統合済)、P1、G1〜G3)
-- 改稿:改稿の担当で v1 → v2、changes-v2.md — 待ち
-- 再検証:確認者 — 待ち
+- 改稿:改稿の担当で v1 → v2、changes-v2.md — 済(1096字、要確認なし。差分は round-2/diff.md、変更記録の3行と一致)
+- 再検証(回2):確認者 — 起動したが API の利用上限で途中終了(返却物なし)。作業の再開後に起動し直す
 
 ## 決まっていること
 
