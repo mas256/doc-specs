@@ -37,9 +37,9 @@
 - [済] 題材の担当(aeedc30e5930b0262):topics-result.md(32題材)
 - [済] 検証担当1(a286df0d1dbc3f426):check-core.md(確認済7、誤り1=C6、未確認1=C9。C6は企画の担当に正しい言い方を渡す)
 - [済] 切り口の担当(a05267b03f0f3fafe):angles-result.md(切り口2組、新規題材2)
-- [待ち] ロールモデルの担当(a7bb3978474ebbfdb、sonnet medium):packet-rolemodel-1 → rolemodel-result.md
-- [待ち] 検証担当2(sonnet high):packet-check-2(窓口が事項を番号の一覧に直して追記した)→ check-2.md
-- [未] 企画の担当に続けて話しかける:結果の束ね、核の判定、説明の費用、取捨の承認の形、構成案のたたき台
+- [済] ロールモデルの担当(a7bb3978474ebbfdb):rolemodel-result.md
+- [済] 検証担当2(a74d46d7a368d72a3):check-2.md(40事項。確認済38、誤り2=C-4「一部だけ変えられない」は言い切りが強い・D-3の二つ目の文は0÷0に当てはまらない)。C9は未確認のまま
+- [待ち] 企画の担当に続けて話しかけた:結果の束ね、核の判定、説明の費用、content.md の記入、取捨の承認の形、構成案のたたき台(outline.md)
 
 ## 決まっていること
 
