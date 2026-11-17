@@ -52,15 +52,15 @@
 - L3.9 モデルと考える量(effort):担当ごとの設定は、サブエージェントの定義に書く。次を出発点とし、依頼者の指定があればそれに従う。
 
 | 担当 | 定義ファイル(agents/) | モデル | effort | 理由 |
-| --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
 | Lead | なし(主の会話) | sonnet | high | 分配と取りまとめを担う。全体の判断の要になる |
 | 照合担当 | review-collator | haiku | medium | 文字列の抽出だけを担う。スクリプトで代えてよい |
 | 要約テスト | なし(L3.11) | haiku | medium | 文書だけを読んだ読者の受け取りを見る(L3.11) |
 | 検証担当 | review-checker | sonnet | high | 再計算と照合。誤りを見逃すと本文に残る |
 | 構造担当 | review-structure | sonnet | high | 1名だけで、構造パケットが全章担当の入力になる |
 | 章担当 | review-chapter | sonnet | high | 判定の質が指摘の質を決める |
-| 確認者(再検証) | review-verifier | sonnet | medium |
-| UI担当 | review-ui | sonnet | medium | 入力が変更箇所に限られる |
+| 確認者(再検証) | review-verifier | sonnet | medium | 入力が変更箇所に限られる |
+| UI担当 | review-ui | sonnet | medium | 表示の確かめで、判断の幅が小さい |
 
   - 最大は sonnet の high とする(common.md N12.1)。結果が足りない場合は、モデルを替える前に effort を一段上げる。sonnet の high で足りない場合は、モデルを上げず、パケットと規格の書き方を見直す。
   - 「低い effort で一巡し、不合格だけをやり直す」進め方は、結果を機械的に確かめられる作業(照合、導出の再計算)にだけ使う。負担・飛躍の判定には使わない。
