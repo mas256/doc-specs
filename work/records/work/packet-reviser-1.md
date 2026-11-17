@@ -1,0 +1,17 @@
+# 作業パケット:改稿の担当(工程4)
+- 担当の種類と段:改稿の担当(agents/writing-reviser)。工程4(改稿)。
+- 規格フォルダ:/home/user/doc-specs(定義ファイルの順に common.md、handoff.md、writing/write-core.md、writing/phase-3-writing.md、writing/phase-4-revision.md を読む)
+- 読むファイル(W2.9):要件定義書 /home/user/doc-specs/work/records/brief.md、構成案 /home/user/doc-specs/work/records/outline.md、author-style.md:なし(定めなしで進める)、素材:なし。
+- 項目一覧と採否表の該当行(これ以外の行は直さない。理由:E1.2):
+  - 項目一覧 /home/user/doc-specs/work/records/items.md の B1 の行(状態:未対応)。B2 は統合済(→B1)なので直さない。P1 は不採用なので直さない。
+  - 採否表 /home/user/doc-specs/work/records/decisions.md の B1 の行:採否「採用」、指示「D1 は (a)(推す案)」。
+  - D1 の方針の全文:/home/user/doc-specs/work/records/round-1/report.md の「3 新規の指摘・方針表」の B1 の行の方針列。選ばれたのは (a) だけ。(b)(c) は選ばれていないので行わない(E3.6)。
+  - 採用された指摘の根拠カード:/home/user/doc-specs/work/records/round-1/structure-1.md の [S1-B1] と、/home/user/doc-specs/work/records/round-1/chapter-1.md の [K1-B1](どちらも B1 に統合された起案。読み筋の参考。[K1-D1] の (a)(b) は D1 の (b)(c) に当たり、選ばれていない)。
+- 範囲:全体(変更は D1(a) の箇所と、それに伴う前後の接続・表記の統一だけ。E1.4)
+- 変更前の版:/home/user/doc-specs/work/zero-division-v1.md(書き換えない)
+- 変更後の版の名:zero-division-v2(/home/user/doc-specs/work/zero-division-v2.md。v1 を写してから写しだけを直す。E5.1)
+- 変更記録の書き出し先:/home/user/doc-specs/work/records/changes-v2.md(handoff.md N5.3 の書式)
+- 止まる条件:方針のとおりに直せない場合は E4 に従う。内容の選択が要るときは自分で決めず、争点なら直さずに質問として返し、そうでなければ【要確認:番号】を置いて変更記録の「要確認」に書く。依頼者には直接尋ねない。
+- 【要確認】の次に使う番号:1
+- 守ること:分量の上限1100字(空白と改行を除いて数える。要件定義書の判断上の仮定5)。だ・である調。見出し・題名なし。「逆」「定義」を残す。構成案の「用語と表記の決め」に従う。項目一覧と採否表にない論点・題材・例を足さない(E4.4)。項目一覧と採否表を書き換えない。
+- 返す形:変更後の本文と変更記録の場所、変更後の字数(数え方つき)、修正しなかった採用済みの行(なければ「なし」)、【要確認】の番号の一覧、確かめられなかった事実、質問(なければ「なし」)。出来の自己評価は書かない(E5.4)。
