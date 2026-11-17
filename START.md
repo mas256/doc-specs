@@ -20,10 +20,10 @@
 
 | 種類 | 最初に読むもの | 後で読むもの |
 | --- | --- | --- |
-| A 壁打ちから作る | common.md、writing/write-core.md、writing/phase-0-discussion.md(Z1〜Z4) | 工程1へ移るとき:handoff.md、writing/phase-1-requirements.md、writing/style-presets.md。以後は工程ごとに、その工程のファイル(壁打ち(中身)は phase-0-discussion.md の Z5)。執筆の後、レビューへ進むとき:種類Cの「最初に読むもの」 |
-| B 要件定義から作る | common.md、handoff.md、writing/write-core.md、writing/phase-1-requirements.md、writing/style-presets.md | 壁打ち(中身)を行う場合:writing/phase-0-discussion.md の Z5。工程2:writing/phase-2-outline.md。工程3:窓口は本文を書かず、執筆の担当を起動する(writing/write-core.md W2.9、W2.12)。執筆の後、レビューへ進むとき:種類Cの「最初に読むもの」 |
+| A 壁打ちから作る | common.md、handoff.md、writing/write-core.md | 窓口は工程0〜2の手順(phase-0〜2)を読まない。企画の担当(agents/writing-planner)を起動し、同じ担当に工程ごとに続けて話しかける(common.md N7.8)。工程3:執筆の担当を起動する(W2.9、W2.12)。執筆の後、レビューへ進むとき:種類Cの「最初に読むもの」 |
+| B 要件定義から作る | common.md、handoff.md、writing/write-core.md | Aと同じ(企画の担当には、工程1から始めるように頼む) |
 | C レビュー | common.md、handoff.md、review/core.md、review/role-lead.md | 単独体制になった場合:担う役割の役割ファイル |
-| D 改稿 | common.md、handoff.md、writing/write-core.md、writing/phase-4-revision.md | 規模が大の採用行がある場合:writing/phase-2-outline.md。要件定義書も依頼内容ファイルもない場合:writing/phase-1-requirements.md。改稿:窓口は本文を書かず、改稿の担当を起動する(W2.9、W2.12) |
+| D 改稿 | common.md、handoff.md、writing/write-core.md、writing/phase-4-revision.md | 規模が大の採用行がある場合と、要件定義書も依頼内容ファイルもない場合:企画の担当に、構成案の改訂(E2.2)や要件定義書の作成(W2.8)を頼む。改稿:窓口は本文を書かず、改稿の担当を起動する(W2.9、W2.12) |
 | E 再検証 | common.md、handoff.md、review/core.md、review/role-lead.md | 単独体制になった場合:review/role-verifier.md |
 | F 担当として働く | 作業パケットに書かれた担当の定義ファイル(agents/) | 定義ファイルが読めと言うファイルだけ。それ以外のファイルと、窓口の記録は読まない |
 
@@ -33,6 +33,6 @@
 
 ## 3 始める前に確かめること
 
-- author-style.md が渡されているか。渡されていない場合と、未記入の欄がある場合の進め方は、handoff.md の N4 に定めがある(Aでは、工程1に移るときに確かめる)。聞き取りを行う場合は、author-style-template.md を読む。
+- author-style.md が渡されているか。ない場合と、未決の欄がある場合の進め方は、handoff.md の N4 にある(作る作業は指示書の外で、author-style-template.md を使う。Aでは、工程1に移るときに確かめる)。
 - C・D・E では、records/ フォルダ(handoff.md の N5.4)があるかを確かめる。2回目以降の回、改稿、再検証は、records/items.md(項目一覧)からほかの記録をたどる。
-- サブエージェントの定義(agents/ の12ファイル)が `.claude/agents/` に置かれているか。置かれていない場合は、依頼者に伝える。使えない環境での進め方は、L3.2(レビュー)と W2.9(書く手順)に定めがある。
+- サブエージェントの定義(agents/ の13ファイル)が `.claude/agents/` に置かれているか。置かれていない場合は、依頼者に伝える。使えない環境での進め方は、L3.2(レビュー)と W2.9(書く手順)に定めがある。
