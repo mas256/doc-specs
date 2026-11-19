@@ -10,7 +10,7 @@ effort: high
 
 規格フォルダ(場所は作業パケットに書かれている)の次のファイルを、この順に読んで従う。
 
-1. common.md
+1. review/base-v4.md
 2. review/core.md
 3. review/role-structure.md
 4. author-style.md(パケットに場所が書かれている。「なし」の場合は読まない)

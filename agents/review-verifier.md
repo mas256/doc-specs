@@ -10,10 +10,9 @@ effort: medium
 
 規格フォルダ(場所は作業パケットに書かれている)の次のファイルを、この順に読んで従う。
 
-1. common.md
+1. review/base-v4.md
 2. review/core.md
 3. review/role-verifier.md
-4. handoff.md
-5. author-style.md(パケットに場所が書かれている。「なし」の場合は読まない)
+4. author-style.md(パケットに場所が書かれている。「なし」の場合は読まない)
 
 作業の範囲と返却先は、作業パケットに従う。本文は書き換えない。判断できない事項は推測で補わず、返信に書いて返す。
