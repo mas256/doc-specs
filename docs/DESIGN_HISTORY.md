@@ -8,7 +8,7 @@
 
 ## 1. 核となる5つの基本方針
 
-[DESIGN.md](https://github.com/mas256/doc-specs/blob/main/DESIGN.md) および [common.md](https://github.com/mas256/doc-specs/blob/main/common.md) を貫く設計の芯は次の5点です。
+[DESIGN.md](DESIGN.md) および [common.md](../common.md) を貫く設計の芯は次の5点です。
 
 0. **作り手は依頼者**: AIは材料・選択肢・ドラフトを出す伴走者であり、依頼者が「任せる」と明示した部分だけ推奨案で進める。
 
@@ -24,7 +24,7 @@
 
 ### Phase 1：第1版〜第3版（2026-11-10〜11-16）— 工程の確立と過剰制約への気づき
 
-[writing/rationale.md](https://github.com/mas256/doc-specs/blob/main/writing/rationale.md) には、初期の試行（小論文の試行や漸化式の教科書議論 [trials/zenkashiki-three-term.md](https://www.google.com/search?q=https://github.com/mas256/doc-specs/blob/main/trials/zenkashiki-three-term.md) 等）から得られた重要な教訓が記録されています。
+[writing/rationale.md](../archive/writing-rationale-v3.md) には、初期の試行（小論文の試行や漸化式の教科書議論 [trials/zenkashiki-three-term.md](../trials/zenkashiki-three-term.md) 等）から得られた重要な教訓が記録されています。
 
 * **壁打ち（工程0）と改稿（工程4）の新設（11-10〜11-11）**: 最初から構成や執筆に入ると芯が定まらないため、質問制限や承認待ちを外した「壁打ち」を独立させた。また `author-style.md` への移行や、既存原稿の改稿では要件定義書だけを必須とする整理を行った。
 
@@ -40,7 +40,7 @@
 
 ### Phase 2：第4版から第5版への大転換（2026-11-17〜11-19）— 日本語悪化の原因究明と「外したもの」
 
-第4版までの運用と [proposals/deletion-list-v5.md](https://www.google.com/search?q=https://github.com/mas256/doc-specs/blob/main/proposals/deletion-list-v5.md)（既存233規則の仕分け）等を経て、「ルールを細かく増やすほどAIの日本語が不自然になる」という課題が明確になり、第5版（[rationale.md](https://github.com/mas256/doc-specs/blob/main/rationale.md) / [DESIGN.md](https://github.com/mas256/doc-specs/blob/main/DESIGN.md)）では意図的な「引き算」が行われました。
+第4版までの運用と [proposals/deletion-list-v5.md](../archive/proposals/deletion-list-v5.md)（既存233規則の仕分け）等を経て、「ルールを細かく増やすほどAIの日本語が不自然になる」という課題が明確になり、第5版（[rationale.md](rationale.md) / [DESIGN.md](DESIGN.md)）では意図的な「引き算」が行われました。
 
 #### 先祖返り禁止リスト（第5版で外したものと、その理由）
 
@@ -55,7 +55,7 @@
 
 ### Phase 3：第5版の集中点検とコミット履歴（2026-11-19〜11-20 / `0fe2dc9` 〜 `73fbd0e`）
 
-[CURRENT.md](https://github.com/mas256/doc-specs/blob/main/CURRENT.md) および [main ブランチのコミット履歴](https://github.com/mas256/doc-specs/commits/main/)（216コミット）では、[handoff-2026-11-19/spec-review-opus5/report.md](https://www.google.com/search?q=https://github.com/mas256/doc-specs/blob/main/handoff-2026-11-19/spec-review-opus5/report.md) および [handoff-2026-11-20/spec-review-opus5-2/report.md](https://github.com/mas256/doc-specs/blob/main/handoff-2026-11-20/spec-review-opus5-2/report.md) を踏まえた細部の検証と重要な方針決定が行われました。
+[CURRENT.md](CURRENT.md) および [main ブランチのコミット履歴](https://github.com/mas256/doc-specs/commits/main/)（216コミット）では、[handoff-2026-11-19/spec-review-opus5/report.md](../archive/handoff-2026-11-19/spec-review-opus5/report.md) および [handoff-2026-11-20/spec-review-opus5-2/report.md](../archive/handoff-2026-11-20/spec-review-opus5-2/report.md) を踏まえた細部の検証と重要な方針決定が行われました。
 
 * **関わり方の連続化（点検1）**: 「全部AI任せ」「共同」「人が主」を固定モードにせず連続的な目安とし、最初の問いを「どれぐらいAIに任せたいか、自分でやりたい部分はどこか」に変更。
 
@@ -81,7 +81,7 @@
 
 ### 3.2 要件定義書と `author-style.md` の境界・優先順位の意図
 
-* **責務を分ける理由**: 現行の [author-style-template.md](https://www.google.com/search?q=https://github.com/mas256/doc-specs/blob/main/author-style-template.md) の第1部（文書の概要・読者像）は、文書ごとに作る要件定義書と重複・衝突する原因になっていた。要件定義書は「今回の文書（What / Who）」、[author-style.md](https://www.google.com/search?q=https://github.com/mas256/doc-specs/blob/main/author-style-template.md) は「著者固有の書き方（How）」と分離する。
+* **責務を分ける理由**: 現行の [author-style-template.md](../author-style-template.md) の第1部（文書の概要・読者像）は、文書ごとに作る要件定義書と重複・衝突する原因になっていた。要件定義書は「今回の文書（What / Who）」、[author-style.md](../author-style-template.md) は「著者固有の書き方（How）」と分離する。
 
 * **なぜ「原則 `author-style` 優先」を覆さないのか**: 仮に「要件定義書 ＞ `author-style`」にすると、壁打ちのまとめでAIが書いた「読者に寄り添って親しみやすく」のような無難な一文が、著者の意図的な文体を上書きして「AIらしい普通の文章」に引き戻してしまう。そのため原則 `author-style` 優先を守り、今回だけ変えたい場合は明示タグまたは用途別の薄いファイルの切り替えで対応する。
 

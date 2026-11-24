@@ -22,4 +22,6 @@ AIと人間が協働して、筋の通った自然な文書を作成・レビュ
 * `writing/` — 執筆フェーズ手順（`phase-1` 〜 `phase-5`）
 * `review/` — 第5版に統合された形式レビュー手順（骨格先行＋細部監査）
 * `agents/` — 各専門担当の薄い定義（役割・読む範囲・入出力）
-* `docs/` — 設計思想（`DESIGN.md`）および過去の経緯・先祖返り禁止リスト（`DESIGN_HISTORY.md`）
+* `docs/` — 設計思想（`DESIGN.md`）、過去の経緯・先祖返り禁止リスト（`DESIGN_HISTORY.md`）、改訂の理由（`rationale.md`）、指示書を改める会話の記録（`CURRENT.md`）
+* `trials/` — 試行の記録
+* `archive/` — 第5版までの草案（`proposals/`）、日ごとの引き継ぎ（`handoff-*`）、旧版の設計思想と rationale
