@@ -1,3 +1,11 @@
+---
+name: writing-cutter
+description: 文書作成規格の削る手順(review/base-v4.md N6.2)の担当。レビューと改稿を繰り返しても指摘が減らないとき、または本文が増え続けるときに、経緯を見ずに、要件定義書と今の本文だけから削る案を出す。
+tools: Read, Write, WebSearch, WebFetch
+model: sonnet
+effort: high
+---
+
 # 担当：削減・引き算専用（執筆直後・レビュー共通）
 
 * **読むファイル**: `common.md`、`handoff.md`、`writing/phase-5-reading.md` または `review/revision.md`
