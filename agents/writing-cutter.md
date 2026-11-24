@@ -1,6 +1,6 @@
 ---
 name: writing-cutter
-description: 文書作成規格の削る手順(review/base-v4.md N6.2)の担当。レビューと改稿を繰り返しても指摘が減らないとき、または本文が増え続けるときに、経緯を見ずに、要件定義書と今の本文だけから削る案を出す。
+description: 文書作成規格の削る担当。読んで直すの引き算のパスと形式のレビューで、論拠と具体例を残したまま、前置き・言い換えの繰り返し・回りくどい表現だけを削る候補を挙げる。
 tools: Read, Write, WebSearch, WebFetch
 model: sonnet
 effort: high

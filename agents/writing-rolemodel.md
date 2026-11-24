@@ -1,6 +1,6 @@
 ---
 name: writing-rolemodel
-description: 文書作成規格 書く手順で、読者のロールモデルになって読む担当。作業種別「論点案」では論点案を、「読んで直す」では本文を読み、読者から見て弱いところを返す。
+description: 文書作成規格の、読者のロールモデルになって読む担当。読んで直すで、全体の見渡しと、読者から見て弱いところを返す。
 tools: Read, Write, WebSearch, WebFetch
 model: sonnet
 effort: medium

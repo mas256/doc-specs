@@ -1,6 +1,6 @@
 ---
 name: writing-reviser
-description: 文書作成規格の改稿の担当。作業種別が二つある。「読んで直す」は、依頼者が決めた弱いところを直す(書く手順)。「採否表」は、形式のレビューの項目一覧と採否表に基づいて書き直し、変更記録を返す(レビューの手順)。長い文書では章ごとに使う。
+description: 文書作成規格の改稿の担当。読んで直すで確定した骨格の直しと細部の直しを、原稿に反映する。
 tools: Read, Grep, Glob, Write, Edit, WebSearch, WebFetch
 model: sonnet
 effort: medium
