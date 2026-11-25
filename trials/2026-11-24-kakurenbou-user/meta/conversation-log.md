@@ -416,3 +416,7 @@ C-1 を承認として記録し読んで直すへ進んだこと(15db726)、骨�
 ## 58. 窓口の作業(記録)
 
 - 骨格はそのまま、③→④に言い切りのつなぎ1文を足すと確定した。構造の直しは改稿の担当(agents/writing-reviser.md。model: sonnet、effort: medium)に頼み、records/04-draft-v2.md にする。そのあと削る担当の引き算に進む。
+
+## 59. 窓口の作業(記録)
+
+- 改稿の担当が v2 を書いた(meta/agents/09-reviser-bridge.md)。窓口が差と字数を確かめた。続けて削る担当(agents/writing-cutter.md。model: sonnet、effort: high)に引き算のパスを頼む。
