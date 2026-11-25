@@ -420,3 +420,7 @@ C-1 を承認として記録し読んで直すへ進んだこと(15db726)、骨�
 ## 59. 窓口の作業(記録)
 
 - 改稿の担当が v2 を書いた(meta/agents/09-reviser-bridge.md)。窓口が差と字数を確かめた。続けて削る担当(agents/writing-cutter.md。model: sonnet、effort: high)に引き算のパスを頼む。
+
+## 60. 窓口の作業(記録)
+
+- 削る担当から引き算の結果が届いた(meta/agents/10-cutter.md)。候補は2件で、確実に削ってよい箇所はないとの判断。
